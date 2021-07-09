@@ -1,0 +1,51 @@
+html {
+    scroll-behavior: smooth;
+}
+
+#header-section {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, .75), rgba(0, 0, 0, .75)), url(../images/space2.jpg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
+
+#second-section{
+    background-color: rgb(145, 107, 180); 
+    background-image: linear-gradient(rgb(235, 17, 17),rgb(134, 51, 211));
+    color:rgb(255, 255, 255)
+}
+
+
+
+#third-section{
+    background-color: rgb(139, 69, 204);
+    background-image: linear-gradient(rgb(134, 51, 211),rgb(70, 70, 241));
+    background-blend-mode: hard-light;
+    
+}
+
+#five-section{
+    background-color: rgb(134, 206, 112);
+    
+}
+
+#one-section{
+    background-color: rgb(164, 122, 219);
+    background-image: linear-gradient(rgb(70, 70, 241),rgb(60, 228, 60));
+    color: rgb(255, 255, 255);
+}
+
+#parallax-section {
+    background-image: url(../images/black\ hole.jpg);
+    background-position: right bottom;
+    background-size: cover;
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+#footer-section {
+    background-image: linear-gradient(to bottom, rgb(60, 228, 60), rgba(252, 23, 23, 0.75)), url(../images/cover-bubble-dark.svg);
+    background-position: center center, center center;
+    background-size: cover, cover;
+    background-repeat: repeat, repeat;
+}
